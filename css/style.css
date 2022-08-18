@@ -32,3 +32,20 @@
     position:relative;
     left:220px;
 }
+
+.tagLine1{
+    position:fixed;
+    display:flex;
+    
+    flex-direction:row;
+    color:var(--primary-color);
+}
+
+.fa-check{
+    font-size:40px;
+}
+
+.tagLine1text{
+    font-size:30px;
+    margin-left:10px;
+}
