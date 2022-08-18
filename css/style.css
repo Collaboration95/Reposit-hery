@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Mouse+Memoirs&display=swap');
+:root{
+    font-family: 'Mogra', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    --primary-color:#0D3B66;
+    --secondary-color:#01BAEF;
+    --tertiary-color:#FDF2F8;
+}
