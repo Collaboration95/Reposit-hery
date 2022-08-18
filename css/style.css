@@ -7,3 +7,28 @@
     --secondary-color:#01BAEF;
     --tertiary-color:#FDF2F8;
 }
+
+.logo{
+    position:relative;
+    margin:-2px 0px 0px 15px;
+}
+
+.logoHeader{
+    font-size:70px;
+    color:var(--primary-color);
+    letter-spacing: 2px;
+}
+
+.logoTagLine{
+    position:relative;
+    font-size:25px;
+    left:110px;
+    margin-top:-10px;
+}
+
+.logoTertiary{
+    font-size:18px;
+    font-family: 'Mogra', cursive;
+    position:relative;
+    left:220px;
+}
