@@ -13,7 +13,7 @@
 
 .logo{
     position:relative;
-    margin:-2px 0px 0px 15px;
+    margin:-2px 0px 0px 30px;
 }
 
 .logoHeader{
@@ -91,3 +91,25 @@
     padding:10px 10px 10px 10px;
 }
 
+.wrapperNavMenu{
+    width:60vw;
+    margin:0px 0px 0px 30px;
+}
+
+.navMenu{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:30px;
+    color:var(--primary-color);
+}
+.navMenu>*{
+    margin:0px auto 0px auto;
+}
+
+.navMenuHighlight{
+    background-color: var(--primary-color);
+    color:var(--primary-bgcolor);
+    padding:3px 10px 3px 10px;
+    border-radius:10px;
+}
