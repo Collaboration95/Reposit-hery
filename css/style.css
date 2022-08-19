@@ -34,11 +34,11 @@
 }
 
 .tagLine1{
-    position:fixed;
+    position:relative;
     display:flex;
-    
     flex-direction:row;
     color:var(--primary-color);
+
 }
 
 .fa-check{
@@ -48,4 +48,9 @@
 .tagLine1text{
     font-size:30px;
     margin-left:10px;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
