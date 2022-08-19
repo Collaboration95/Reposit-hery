@@ -6,6 +6,8 @@
     --primary-color:#0D3B66;
     --secondary-color:#01BAEF;
     --tertiary-color:#FDF2F8;
+    --primary-bgcolor:#f7cfe5;
+    --tertiary-darker:#D62083;
 }
 
 .logo{
@@ -38,7 +40,7 @@
     display:flex;
     flex-direction:row;
     color:var(--primary-color);
-
+    margin-right:10px;
 }
 
 .fa-check{
@@ -48,9 +50,42 @@
 .tagLine1text{
     font-size:30px;
     margin-left:10px;
+    letter-spacing: 1px;
 }
+
 .header{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
 }
+
+.notice{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    background-color:var(--primary-bgcolor);
+    padding:5px 10px 10px 10px;
+    border-radius:7px;
+    padding-bottom:10px;
+    box-shadow:  20px 20px 60px #d2b0c3,
+                 -20px -20px 60px #ffeeff;
+}
+
+.noticeTitle{
+    font-size:30px;
+    letter-spacing: 2px;
+    padding-bottom:5px;
+}
+
+.noticeLine{
+    padding:2px 0px 2px 0px;
+    position:relative;
+    font-size:20px;
+    color:var(--secondary-color);
+}
+
+.final{
+    display:flex;
+    padding:10px 10px 10px 10px;
+}
+
