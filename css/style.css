@@ -92,7 +92,7 @@
 }
 
 .wrapperNavMenu{
-    width:65vw;
+    width:70vw;
     margin:0px 0px 0px 15px;
 }
 
@@ -116,4 +116,13 @@
 
 a{
     all: unset;
+}
+
+.sampleImage{
+    margin:10px 0px 10px 40px;
+}
+
+.mainImg{
+    width:70%;
+    height: 100%;
 }
