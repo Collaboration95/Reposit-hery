@@ -92,8 +92,8 @@
 }
 
 .wrapperNavMenu{
-    width:60vw;
-    margin:0px 0px 0px 30px;
+    width:65vw;
+    margin:0px 0px 0px 15px;
 }
 
 .navMenu{
@@ -112,4 +112,8 @@
     color:var(--primary-bgcolor);
     padding:3px 10px 3px 10px;
     border-radius:10px;
+}
+
+a{
+    all: unset;
 }
