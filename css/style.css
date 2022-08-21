@@ -127,20 +127,35 @@ a{
     height: 100%;
 }
 
-.homePanelInfo{
-    margin:0px auto 0px auto;
-}
-
 .homeColumnDisplay{
     display:flex;
     flex-direction:row;
 }
 
-.homeTitleInfo{
-    font-size:30px;
+.homePanelInfo{
+    display:flex;
+    flex-direction:column;    
+    justify-content:flex-start;
+    align-items: center;
+    width:30vw;
 }
 
-.homeInfoContent{
-    font-size:20px;
-    color:var(--secondary-color)
+.homeInfoGroup{
+    margin:10px 0px 30px 0px;
+    width:25vw;
 }
+
+.homeTitleInfo{
+    font-size:33px;
+    margin:5px 0px 5px 0px;
+    text-align: center;
+}
+
+
+.homeInfoContent{
+    font-size:23px;
+    color:var(--secondary-color);
+    word-wrap: break-word;
+    text-align: center;
+}
+
