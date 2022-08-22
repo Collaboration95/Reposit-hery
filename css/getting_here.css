@@ -1,0 +1,30 @@
+.homeColumnDisplay{
+    display:flex;
+    flex-direction:row;
+}
+
+.gettingPanelInfo{
+    display:flex;
+    flex-direction:column;    
+    justify-content:flex-start;
+    align-items: center;
+    width:30vw;
+}
+
+.gettingInfoGroup{
+    margin:10px 0px 30px 0px;
+    width:25vw;
+}
+
+.gettingTitleInfo{
+    font-size:35px;
+    margin:5px 0px 5px 0px;
+    text-align: center;
+}
+
+.gettingInfoContent{
+    font-size:28px;
+    color:var(--secondary-color);
+    word-wrap: break-word;
+    text-align: center;
+}

@@ -147,15 +147,16 @@ a{
 }
 
 .homeTitleInfo{
-    font-size:33px;
+    font-size:35px;
     margin:5px 0px 5px 0px;
     text-align: center;
 }
 
 .homeInfoContent{
-    font-size:23px;
+    font-size:28px;
     color:var(--secondary-color);
     word-wrap: break-word;
     text-align: center;
 }
+
 
