@@ -105,6 +105,7 @@
 }
 .navMenu>*{
     margin:0px auto 0px auto;
+    user-select:none;
 }
 
 .navMenuHighlight{
@@ -118,6 +119,11 @@ a{
     all: unset;
 }
 
+.homeColumnDisplay{
+    display:flex;
+    flex-direction:row;
+}
+
 .sampleImage{
     margin:10px 0px 10px 40px;
 }
@@ -125,11 +131,6 @@ a{
 .mainImg{
     width:70vw;
     height: 100%;
-}
-
-.homeColumnDisplay{
-    display:flex;
-    flex-direction:row;
 }
 
 .homePanelInfo{
@@ -150,7 +151,6 @@ a{
     margin:5px 0px 5px 0px;
     text-align: center;
 }
-
 
 .homeInfoContent{
     font-size:23px;
