@@ -159,4 +159,28 @@ a{
     text-align: center;
 }
 
+.about_usText{
+    margin:40px 0px 0px 30px;
+}
 
+.about_usTitle{
+    font-family: 'Mogra', cursive;
+    font-size:25px;
+}
+
+.about_usContent{
+    font-size:25px;
+    margin:0px 0px 12px 220px;
+
+    width:350px;
+
+}
+
+.about_usContent::before{
+    display: inline-block;
+    font-style: normal;
+    content:"0";
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
