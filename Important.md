@@ -1,7 +1,5 @@
 # Stuff to Note 
 
-
-
 ## Getting Here:
 Includes Map view as well ->  uses Google maps api 
 

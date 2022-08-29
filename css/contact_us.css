@@ -1,0 +1,59 @@
+
+.infoBox{
+    margin:0px 0px 0px 200px;
+}
+
+.infoBoxTitle{
+    font-family: 'Mogra', cursive;
+    font-size:50px;
+    margin:30px 0px 20px 0px;
+    text-align:center;
+}
+
+.infoBoxText{
+    font-size:35px;
+    margin:10px 40px 0px 0px;
+}
+
+.contactFormAlign{
+    display:flex;
+    margin:40px 0px 0px 100px;
+    justify-content:flex-start;
+
+}
+
+.contactFormTitle{
+    color:var(--primary-color);
+    font-size:45px;
+    text-align:center;
+}
+
+.contactForm{
+    background-color: rgba(1, 187, 239,.45);
+    width:30vw;
+    height:500px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.formField{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px 0px 20px 0px;
+}
+
+.formText{
+    color:var(--primary-color);
+    font-size:20px;
+}
+.formText::after{
+    content:" :"
+}
+.formInput{
+    all:unset;    
+    /* background-color:rgba(1, 187, 239,.45); */
+
+    
+}
