@@ -9,13 +9,12 @@ Live Demo Link 👉 https://collaboration95.github.io/OdinProjects/Reposit-hery/
 - [ ] Come up with basic Timeline of project
 
 ### Design :
-- [ ] Come up with basic website layout and design
-- [ ] Design layout of website in figma 
-- [ ] Finalize on Colors + Fonts
+- [x] Come up with basic website layout and design
+- [x] Design layout of website in figma 
+- [x] Finalize on Colors + Fonts
 
 ### Basics : 
 - [ ] Come up with html skeleton for all pages with dummy links etc
-- [ ] Code css with class names + tags etc
+- [x] Code css with class names + tags etc
 
 
-tt
