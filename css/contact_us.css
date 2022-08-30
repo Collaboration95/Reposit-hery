@@ -12,6 +12,7 @@
     color:var(--secondary-color);
     display:inline-block;
     position:relative;
+
 }
 
 .emailLink:after {
@@ -52,7 +53,6 @@
     display:flex;
     margin:40px 0px 0px 100px;
     justify-content:flex-start;
-
 }
 
 .contactFormTitle{
@@ -64,25 +64,29 @@
 
 .contactForm{
     background-color: rgba(1, 187, 239,.45);
-    width:30vw;
-    height:500px;
-    border-radius: 10px;
+    width:29vw;
+    height:650px;
+    color:var(--primary-color);
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
     padding:10px 10px 10px 10px;
+    border-radius: 20px;
+    background: #8DE0F8;
+    box-shadow:  8px 8px 27px #79c1d5,
+             -8px -8px 27px #a1ffff;
 }
 
 .formField{
     display:flex;
     justify-content:flex-start;
-    margin:10px 40px 20px 40px;
+    margin:20px 40px 20px 40px;
 }
 
 .formText{
     color:var(--primary-color);
-    font-size:25px;
-    width:100px;
+    font-size:30px;
+    width:120px;
 }
 
 .formText::after{
@@ -91,12 +95,45 @@
 
 .formInput{
     all:unset;    
-    background-color:red;
-    width:200px;
+    width:350px;
+    box-shadow: 0px 0px 8px 1px var(--primary-color) inset;
+    font-size:30px;
+    border-radius: 6px;
+    border: 3px dashed var(--primary-color);
 }
 
 .enquiryInput{
-    width:300px;
+    all:unset;
+    border-radius: 10px;
+    color:var(--primary-color);
+    resize:none;
+    overflow-y: scroll;
+    font-family: 'Mouse Memoirs', sans-serif;
+    width:350px;
     height: 200px;
-    background-color:red;
+    font-size:30px;
+    box-shadow: 0px 0px 15px 1px var(--primary-color) inset;
+    border: 3px dashed var(--primary-color);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.submitForm{
+    padding:3px 7px 3px 7px;
+    border-radius:10px;
+    user-select:none;
+    font-size:35px;
+    margin:20px auto 0px auto;
+    border: 3px dashed var(--primary-color);
+    transition: border .1s ease-in;
+    transition: padding .3s ease-in;
+}
+
+.submitForm:hover{
+    padding:5px 10px 5px 10px;
+    font-size:37px;
+    border: 4px dashed var(--primary-color);
+
 }
