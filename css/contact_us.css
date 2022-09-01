@@ -8,63 +8,15 @@
     --tertiary-darker:#D62083;
 }
 
-.emailLink{
-    color:var(--secondary-color);
-    display:inline-block;
-    position:relative;
-
-}
-
-.emailLink:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 5px;
-    bottom: 0;
-    left: 0;
-    background-color:var(--tertiary-darker);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.emailLink:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.infoBox{
-    margin:0px 0px 0px 200px;
-}
-
-.infoBoxTitle{
-    font-family: 'Mogra', cursive;
-    font-size:50px;
-    margin:30px 0px 20px 0px;
-    text-align:center;
-}
-
-.infoBoxText{
-    font-size:35px;
-    margin:10px 40px 0px 0px;
-}
-
 .contactFormAlign{
     display:flex;
     margin:40px 0px 0px 100px;
     justify-content:flex-start;
 }
 
-.contactFormTitle{
-    color:var(--primary-color);
-    font-size:45px;
-    text-align:center;
-    margin:0px 0px 20px 0px;
-}
-
 .contactForm{
     background-color: rgba(1, 187, 239,.45);
-    width:29vw;
+    width:30vw;
     height:650px;
     color:var(--primary-color);
     display:flex;
@@ -75,6 +27,14 @@
     background: #8DE0F8;
     box-shadow:  8px 8px 27px #79c1d5,
              -8px -8px 27px #a1ffff;
+    user-select:none;
+}
+
+.contactFormTitle{
+    color:var(--primary-color);
+    font-size:45px;
+    text-align:center;
+    margin:0px 0px 20px 0px;
 }
 
 .formField{
@@ -102,7 +62,11 @@
     border: 3px dashed var(--primary-color);
 }
 
-.enquiryInput{
+.formInput:focus{
+    border:3px solid var(--primary-color);
+}
+
+.formtextArea{
     all:unset;
     border-radius: 10px;
     color:var(--primary-color);
@@ -116,11 +80,16 @@
     border: 3px dashed var(--primary-color);
 }
 
+.formtextArea:focus{
+    border:3px solid var(--primary-color);
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
 .submitForm{
+    position:relative;
     padding:3px 7px 3px 7px;
     border-radius:10px;
     user-select:none;
@@ -129,11 +98,56 @@
     border: 3px dashed var(--primary-color);
     transition: border .1s ease-in;
     transition: padding .3s ease-in;
+    transition: top 1s ease-out;
 }
 
 .submitForm:hover{
     padding:5px 10px 5px 10px;
-    font-size:37px;
+    font-size:38px;
     border: 4px dashed var(--primary-color);
+}
 
+.submitForm:active{
+    top:10px;
+    border:4px solid var(--primary-color);
+}
+
+.infoBox{
+    margin:0px 0px 0px 200px;
+}
+
+.infoBoxTitle{
+    font-family: 'Mogra', cursive;
+    font-size:50px;
+    margin:30px 0px 20px 0px;
+    text-align:center;
+}
+
+.infoBoxText{
+    font-size:35px;
+    margin:10px 40px 0px 0px;
+}
+
+.emailLink{
+    color:var(--secondary-color);
+    display:inline-block;
+    position:relative;
+}
+
+.emailLink:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color:var(--tertiary-darker);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.emailLink:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
