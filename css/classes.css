@@ -1,7 +1,7 @@
 @import url(../css/style.css);
 
-table, th, td, tr {
-    border: 1.5px solid black;
+th, td {
+    border: 1px solid black;
 }
 
 th {
@@ -12,12 +12,21 @@ td {
     padding: 8px;
 }
 
+tbody {
+    margin: 10px 0 10px 0;
+    width: 80%;
+}
+
 #classInfoContainer {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%)
 }
 
-#classInfoNavContainer {
+#classInfoContainer #classInfoNavContainer {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -28,25 +37,62 @@ td {
     display: flex;
     flex-direction: column;
     border: 1px solid darkblue;
+    align-items: center;
 }
 
 .classInfoNav h1 {
     text-align: center;
+    font-size: 2em;
 }
 
 .classInfoNav nav {
     display: flex;
     flex-direction: column;
-    border: 1px solid darkred;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    width: 100%;
 }
 
 .classInfoNav nav ul {
-    border: 1px solid brown;
-    padding: 0;
+    width: 100%;
+}
+
+
+.classInfoNav nav ul li {
+    width: 100%;
+    padding: 5px;
 }
 
 #classInfoTableContainer {
     flex: 4 0 auto;
     border: 1px solid black;
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+#classInfoTable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#locationSelected {
+    padding: 5px 10px 5px 10px;
+}
+
+#subLevelNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#subLevelNav ul{
+    margin: 5px 10px 5px 10px;
+}
+
