@@ -6,6 +6,7 @@ th, td {
 
 th {
     padding: 10px;
+    text-align: center;
 }
 
 td {
@@ -14,7 +15,8 @@ td {
 
 tbody {
     margin: 10px 0 10px 0;
-    width: 80%;
+    display: table;
+    width: 90%;
 }
 
 #classInfoContainer {
@@ -31,12 +33,13 @@ tbody {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    justify-content: flex-start;
+    padding-top: 30px;
 }
 
 .classInfoNav {
     display: flex;
     flex-direction: column;
-    border: 1px solid darkblue;
     align-items: center;
 }
 
